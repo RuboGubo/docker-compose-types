@@ -8,6 +8,8 @@ use std::collections::HashMap;
 use std::convert::TryFrom;
 use std::fmt;
 use std::str::FromStr;
+// #[cfg(feature = "merge")]
+use merge::Merge;
 
 #[allow(clippy::large_enum_variant)]
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq)]
